@@ -72,7 +72,22 @@
     }
     </script>
 
-    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        tonyRed: '#ef4444',
+                        tonyBlue: '#2563eb',
+                        tonyOrange: '#f97316',
+                        tonyDark: '#0f172a'
+                    }
+                }
+            }
+        }
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
